@@ -19,7 +19,7 @@ public class TimeClient {
 		    try {
 			port = Integer.valueOf(args[0]);
 		    } catch (NumberFormatException e) {
-			// 采用默认值
+			// 閲囩敤榛樿鍊�
 		    }
 		}
 		
@@ -33,7 +33,7 @@ public class TimeClient {
 			out.println("QUERY TIME ORDER");
 		    System.out.println("Send order to server succeed.");
 		    String resp = in.readLine();
-		    System.out.println("Now is ：" + resp);
+//		    System.out.println("Now is “ + resp);
 		}catch(Exception e){
 			e.printStackTrace();
 		}finally{
